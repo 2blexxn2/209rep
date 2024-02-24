@@ -224,7 +224,7 @@ td {
 }
 
 .red-line {
-	border-bottom: 2px solid rgb(255, 255, 255);
+	border-bottom: 1px solid white;
 }
 
 .first {
