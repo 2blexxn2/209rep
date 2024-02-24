@@ -229,6 +229,6 @@ td {
 
 .first {
 	border: none;
-	width: 530px;
+	width: 550px;
 }
 </style>
