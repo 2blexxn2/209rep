@@ -4,12 +4,14 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
+	
 	<header>
 		<img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
 		<div class="wrapper">
-			<HelloWorld msg="ФКН" style="margin-top: 50px;"/>
-			<HelloWorld msg="ІПЗ" style="padding-top: 50px;"/>
+<!-- 			<HelloWorld msg="ФКН" style="margin-top: 50px;"/>
+			<HelloWorld msg="ІПЗ" style="padding-top: 50px;"/> -->
+			<h1 >ФКН - ІПЗ</h1>
 			<nav>
 				<RouterLink to="/">Розклад</RouterLink>
 				<RouterLink to="/about">Викладачі</RouterLink>
@@ -21,7 +23,11 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
-
+h1{
+color: rgb(7, 153, 80);
+padding-top: 50px;
+font-weight: bold;
+}
 header {
 	line-height: 2.50;
 	display: flex;
@@ -88,4 +94,5 @@ nav a:first-of-type {
 		justify-content: center; */
 	}
 }
+
 </style>
