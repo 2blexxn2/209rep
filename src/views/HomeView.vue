@@ -60,7 +60,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 		</tr>
 	</table> -->
 	<table>
-		<tr>
+		<tr style="background-color: #212222;" >
 			<th>День</th>
 			<th>Пара</th>
 			<th colspan="2">Підгрупа А</th>
