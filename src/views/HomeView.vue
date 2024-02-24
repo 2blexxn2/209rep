@@ -131,6 +131,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 			<td rowspan="5">Середа</td>
 			<td>1</td>
 			<td colspan="4"></td>
+		</tr>
 		<tr>
 			<td>2</td>
 			<td colspan="2">Іноземна мова</td>
@@ -154,7 +155,6 @@ import TheWelcome from '../components/TheWelcome.vue'
 			<td rowspan="5">Четвер</td>
 			<td>1</td>
 			<td colspan="2"></td>
-		</tr>
 		</tr>
 		<tr>
 			<td>2</td>
