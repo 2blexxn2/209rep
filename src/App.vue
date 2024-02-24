@@ -8,8 +8,8 @@ import HelloWorld from './components/HelloWorld.vue'
 		<img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
 		<div class="wrapper">
-			<HelloWorld msg="ФКН" />
-			<HelloWorld msg="ІПЗ" />
+			<HelloWorld msg="ФКН" style="margin-top: 50px;"/>
+			<HelloWorld msg="ІПЗ" style="padding-top: 50px;"/>
 			<nav>
 				<RouterLink to="/">Розклад</RouterLink>
 				<RouterLink to="/about">Викладачі</RouterLink>
@@ -21,8 +21,12 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+
 header {
-	line-height: 1.5;
+	line-height: 2.50;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	max-height: 100vh;
 }
 

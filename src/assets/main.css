@@ -3,7 +3,7 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 10rem;
   font-weight: normal;
 }
 
@@ -23,13 +23,24 @@ a,
 
 @media (min-width: 1024px) {
   body {
+		background-color: rgb(5, 5, 5);
     display: flex;
     place-items: center;
+		/**/
+		justify-content: center;
+		align-items: center;
   }
 
   #app {
+		background-color: rgb(126, 42, 42);
+		border-radius: 14px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
+		  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background-color: rgba(0, 0, 0, 0.164);
+  border: 1px solid rgba(69, 255, 13, 0.089);
+  cursor: pointer;
   }
 }

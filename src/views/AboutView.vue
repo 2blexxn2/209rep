@@ -1,6 +1,6 @@
 <template>
 	<div class="about">
-		<h2>Викладачі</h2>
+		<!-- <h2>Викладачі</h2> -->
 	</div>
 	<div class="container" style="width: 150%; display: flex; justify-content: center;">
 		<table style="border:1px solid black; border-collapse: collapse; width: 80%;">
