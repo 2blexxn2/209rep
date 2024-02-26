@@ -122,7 +122,7 @@ td:not(:first-of-type){
 	font-size: 7px;
 }
 tr{
-	font-size: 8px;
+	font-size: 7px;
 }
 }
 
