@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import Navbar from './components/Navbar.vue';
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-	
+<Navbar/>
 	<header>
 		<img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
@@ -12,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <!-- 			<HelloWorld msg="ФКН" style="margin-top: 50px;"/>
 			<HelloWorld msg="ІПЗ" style="padding-top: 50px;"/> -->
 			<h1 >ФКН - ІПЗ</h1>
-			<nav>
+			<nav class="nav1">
 				<RouterLink to="/">Розклад</RouterLink>
 				<RouterLink to="/about">Викладачі</RouterLink>
 			</nav>
@@ -41,28 +42,28 @@ header {
 	margin: 0 auto 2rem;
 }
 
-nav {
+.nav1 {
 	width: 100%;
 	font-size: 12px;
 	text-align: center;
 	margin-top: 2rem;
 }
 
-nav a.router-link-exact-active {
+.nav1 a.router-link-exact-active {
 	color: var(--color-text);
 }
 
-nav a.router-link-exact-active:hover {
+.nav1 a.router-link-exact-active:hover {
 	background-color: transparent;
 }
 
-nav a {
+.nav1 a {
 	display: inline-block;
 	padding: 0 1rem;
 	border-left: 1px solid var(--color-border);
 }
 
-nav a:first-of-type {
+.nav1 a:first-of-type {
 	border: 0;
 }
 
@@ -83,7 +84,7 @@ nav a:first-of-type {
 		flex-wrap: wrap;
 	}
 
-	nav {
+	.nav1 {
 		text-align: left;
 		margin-left: -1rem;
 		font-size: 1rem;

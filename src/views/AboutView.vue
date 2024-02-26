@@ -1,7 +1,6 @@
 <template>
 	<div class="about">
-		<!-- <h2>Викладачі</h2> -->
-	</div>
+
 	<div class="container" style="width: 150%; display: flex; justify-content: center;">
 		<table style="border:1px solid black; border-collapse: collapse; width: 80%;">
 			<tr style="background-color: #212222;">
@@ -101,12 +100,16 @@
 				<td style="border:1px solid black;"></td>
 			</tr>
 
-		</table>
+		</table>	</div>
 
 	</div>
 </template>
 
 <style>
+.about{
+	display: flex;
+	justify-content: center;
+}
 h2{
 	font-family: 'Courier New', Courier, monospace;
 	color: rgb(29, 143, 0);

@@ -1,65 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-	<!-- 	<img src="../assets/pic1.jpg" alt="Girl in a jacket" width="1000" height="600">
- -->
-	<!-- 	<table>
-		<tr>
-			<th>День</th>
-			<th>Пара</th>
-			<th colspan="2">Підгрупа А</th>
-			<th colspan="2">Підгрупа Б</th>
-		</tr>
-		<tr>
-			<td rowspan="5">Понеділок</td>
-			<td>1</td>
-			<td colspan="2">Людино-машинна взаємодія</td>
-			<td colspan="2"></td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>Організація баз даних</td>
-			<td>Мова програмування Python</td>
-			<td>Мова програмування Python</td>
-			<td>Організація баз даних</td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td colspan="2">Обд</td>
-			<td colspan="2">Обд</td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td colspan="2">Мова програмування Python</td>
-			<td colspan="2">Мова програмування Python</td>
-		</tr>
-		<tr>
-			<td>5</td>
-			<td colspan="2"></td>
-			<td colspan="2"></td>
-		</tr>
-		<tr>
-			<td rowspan="5">Вівторок</td>
-			<td>1</td>
-			<td colspan="4">Емпіричні методи програмної інженерії проф. Швед А.В</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td colspan="4">Мова програмування Python</td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td colspan="4">
-				<table>
-					<tr class="red-line">Людино-машинна взаємодія</tr><br>
-					<tr class="red-line">Людино-машинна взаємодія</tr>
-				</table>
-			</td>
-		</tr>
-	</table> -->
-	<table>
+	<div class="rozklad">
+	<table class="table1">
 		<tr style="background-color: #212222;" >
 			<th>День</th>
 			<th>Пара</th>
@@ -69,25 +13,25 @@ import TheWelcome from '../components/TheWelcome.vue'
 		<tr>
 			<td rowspan="5">Понеділок</td>
 			<td>1</td>
-			<td colspan="2">Людино-машинна взаємодія</td>
+			<td colspan="2"><a href="http://">Людино-машинна взаємодія</a></td>
 			<td colspan="2"></td>
 		</tr>
 		<tr>
 			<td>2</td>
-			<td>Організація баз даних</td>
-			<td>Мова програмування Python</td>
-			<td>Мова програмування Python</td>
-			<td>Організація баз даних</td>
+			<td><a href="https://meet.google.com/kjc-mmiz-mhk">Організація баз даних</a></td>
+			<td><a href="https://meet.google.com/yjv-qxit-wfx">Мова програмування Python</a></td>
+			<td><a href="https://meet.google.com/wau-wiwx-rsq">Мова програмування Python</a></td>
+			<td><a href="https://meet.google.com/rou-etmu-yrx">Організація баз даних</a></td>
 		</tr>
 		<tr>
 			<td>3</td>
-			<td colspan="2">Обд</td>
-			<td colspan="2">Обд</td>
+			<td colspan="2"><a href="https://meet.google.com/kjc-mmiz-mhk">Обд</a></td>
+			<td colspan="2"><a href="https://meet.google.com/rou-etmu-yrx">Обд</a></td>
 		</tr>
 		<tr>
 			<td>4</td>
-			<td colspan="2">Мова програмування Python</td>
-			<td colspan="2">Мова програмування Python</td>
+			<td colspan="2"><a href="https://meet.google.com/yjv-qxit-wfx">Мова програмування Python</a></td>
+			<td colspan="2"><a href="https://meet.google.com/wau-wiwx-rsq">Мова програмування Python</a></td>
 		</tr>
 		<tr>
 			<td>5</td>
@@ -96,22 +40,33 @@ import TheWelcome from '../components/TheWelcome.vue'
 		</tr>
 		<tr>
 			<td rowspan="5">Вівторок</td>
-			<td>1</td>
-			<td colspan="4">None/Емпіричні методи програмної інженерії проф. Швед А.В</td>
-		</tr>
+				<td colspan="1">1</td>
+				<td colspan="8">
+					<table class="first">
+						<tr class="red-line">
+							<td style="border: blue;">None</td>
+						</tr>
+						<tr>
+							<td style="border: blue;"><a href="https://meet.google.com/aye-qiwa-naq">Емпіричні методи програмної інженерії</a></td>
+						</tr>
+						<tr>
+							<td style="border: blue;"></td>
+						</tr>
+					</table>
+				</td></tr>
 		<tr>
 			<td>2</td>
-			<td colspan="4">Мова програмування Python</td>
+			<td colspan="4"><a href="https://meet.google.com/yjv-qxit-wfx">Мова програмування Python</a></td>
 		</tr>
 		<tr>
 			<td colspan="1">3</td>
 			<td colspan="8">
 				<table class="first">
 					<tr class="red-line">
-						<td style="border: blue;">Людино-машинна взаємодія</td>
+						<td style="border: blue;"><a href="https://meet.google.com/phw-hygv-cpr">Людино-машинна взаємодія</a></td>
 					</tr>
 					<tr>
-						<td style="border: blue;">ОБД</td>
+						<td style="border: blue;"><a href="https://meet.google.com/kjc-mmiz-mhk">ОБД</a></td>
 					</tr>
 					<tr>
 						<td style="border: blue;"></td>
@@ -121,7 +76,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 		</tr>
 		<tr>
 			<td>4</td>
-			<td colspan="4">ООП</td>
+			<td colspan="4"><a href="https://meet.google.com/rou-etmu-yrx">ООП</a></td>
 		</tr>
 		<tr>
 			<td>5</td>
@@ -139,17 +94,17 @@ import TheWelcome from '../components/TheWelcome.vue'
 		</tr>
 		<tr>
 			<td>3</td>
-			<td colspan="2">ООП</td>
-			<td colspan="2">ЛМВ</td>
+			<td colspan="2"><a href="https://meet.google.com/rou-etmu-yrx">ООП</a></td>
+			<td colspan="2"><a href="https://meet.google.com/ndm-tdcj-xzy">ЛМВ</a></td>
 		</tr>
 		<tr>
 			<td>4</td>
-			<td colspan="4">Емпіричні методи програмної інженерії</td>
+			<td colspan="4"><a href="https://meet.google.com/aye-qiwa-naq">Емпіричні методи програмної інженерії</a></td>
 		</tr>
 		<tr>
 			<td>5</td>
 			<td colspan="2"></td>
-			<td colspan="2">ООП</td>
+			<td colspan="2"><a href="https://meet.google.com/ahw-vvsv-syi">ООП</a></td>
 		</tr>
 		<tr>
 			<td rowspan="5">Четвер</td>
@@ -184,7 +139,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 			<td colspan="8">
 				<table class="first">
 					<tr class="red-line">
-						<td style="border: blue;"> Лекції SPA-технології доц. Давиденко Є.О</td>
+						<td style="border: blue;"><a href="https://meet.google.com/cat-tnso-ydp">Лекції SPA-технології доц. Давиденко Є.О</a> </td>
 					</tr>
 					<tr>
 						<td style="border: blue;">None</td>
@@ -197,11 +152,13 @@ import TheWelcome from '../components/TheWelcome.vue'
 		</tr>
 		<tr>
 			<td>2</td>
-			<td colspan="4">Практичні SPA-технології 1-ша підгрупа</td>
+			<td colspan="4"><a href="https://meet.google.com/cat-tnso-ydp">Практичні SPA-технології 1-ша підгрупа</a>
+				</td>
 		</tr>
 		<tr>
 			<td>3</td>
-			<td colspan="4">Практичні SPA-технології 2-га підгрупа</td>
+			<td colspan="4">
+				<a href="https://meet.google.com/cat-tnso-ydp">Практичні SPA-технології 2-га підгрупа</a></td>
 		</tr>
 		<tr>
 			<td>4</td>
@@ -211,17 +168,22 @@ import TheWelcome from '../components/TheWelcome.vue'
 				<td>5</td>
 				<td colspan="4"></td>
 			</tr>
-	</table>
+	</table></div>
 </template>
 
 <style>
+.rozklad{
+	display: flex;
+	justify-content: center;
+}
 table,
 th,
 td {
 	border: 1px solid white;
 	border-collapse: collapse;
-	text-align: center;
+	
 }
+.table1{text-align: center;}
 
 .red-line {
 	border-bottom: 1px solid white;
@@ -229,6 +191,6 @@ td {
 
 .first {
 	border: none;
-	width: 550px;
+	width: 800px;
 }
 </style>

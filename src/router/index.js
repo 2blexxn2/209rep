@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-document.body.style.backgroundColor="black";
+/* document.body.style.backgroundColor="black"; */
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
