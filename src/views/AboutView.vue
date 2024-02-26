@@ -121,7 +121,7 @@ table{
 	width: 50%;
 }
 tr{
-	font-size: 20%;
+	font-size: 5px;
 }
 }
 
