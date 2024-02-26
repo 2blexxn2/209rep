@@ -186,7 +186,7 @@ td {
 .table1{text-align: center;}
 
 .red-line {
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .first {
