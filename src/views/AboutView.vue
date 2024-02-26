@@ -121,8 +121,15 @@ table{
 	width: 50%;
 }
 tr{
-	font-size: 5px;
+	font-size: 7px;
 }
 }
-
+@media  (max-width:280px) {
+table{
+	width: 0%;
+}
+tr{
+	font-size: 2px;
+}
+}
 </style>
