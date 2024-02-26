@@ -118,10 +118,10 @@ h2{
 
 @media  (max-width:600px) {
 table{
-	width: 90%;
+	width: 50%;
 }
 tr{
-	font-size: 40%;
+	font-size: 20%;
 }
 }
 
