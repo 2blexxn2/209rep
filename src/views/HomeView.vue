@@ -193,4 +193,21 @@ td {
 	border: none;
 	width: 800px;
 }
+@media  (max-width:600px) {
+	.rozklad{
+		td{
+			font-size: 8px;
+		}
+		table{
+			width: 100%;
+		}
+	}
+td:not(:first-of-type){
+	font-size: 7px;
+}
+tr{
+	font-size: 7px;
+}
+}
+
 </style>
