@@ -116,10 +116,14 @@ h2{
 	display: flex;
 	justify-content: center;
 }
-/* table{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-} */
+
+@media  (max-width:600px) {
+td:not(:first-of-type){
+	font-size: 7px;
+}
+tr{
+	font-size: 8px;
+}
+}
 
 </style>
