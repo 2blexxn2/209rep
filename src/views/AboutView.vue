@@ -118,14 +118,10 @@ h2{
 }
 
 @media  (max-width:600px) {
-td:not(:first-of-type){
-	font-size: 7px;
-}
+.container, table{
+	width: 0%;}
 tr{
 	font-size: 7px;
-}
-.container{
-	width: 9%;
 }
 }
 
