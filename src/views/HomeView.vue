@@ -199,7 +199,7 @@ td {
 			font-size: 8px;
 		}
 		table{
-			width: 100%;
+			width: 90%;
 		}
 	}
 td:not(:first-of-type){
