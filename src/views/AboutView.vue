@@ -42,10 +42,9 @@
 				<td style="border:1px solid black;"><a
 						href="mailto:honcharova.nadia@chmnu.edu.ua">honcharova.nadia@chmnu.edu.ua</a></td>
 				<td style="border:1px solid black;">Людино-машинна взаємодія</td>
-				<td style="border:1px solid black;"><a href="https://meet.google.com/ndm-tdcj-xzy">1. Особисте посилання для
-						лабораторних</a><br>
-					<br><a href="https://meet.google.com/phw-hygv-cpr">2. Особисте посилання для лекційних</a><br>
-					<br><a href="https://meet.google.com/tua-cugi-hxu">3. Особисте посилання для консультацій </a>
+				<td style="border:1px solid black;"><a href="https://meet.google.com/ndm-tdcj-xzy">1. Лаби</a><br>
+					<br><a href="https://meet.google.com/phw-hygv-cpr">2. Лекції</a><br>
+					<br><a href="https://meet.google.com/tua-cugi-hxu">3. Консультації </a>
 				</td>
 				<td style="border:1px solid black;">щотижня з 15:30 до 16:30</td>
 			</tr>
@@ -106,6 +105,7 @@
 
 <style>
 .about{
+	font-size: 15px;
 	display: flex;
 	justify-content: center;
 }
@@ -121,15 +121,8 @@ table{
 	width: 50%;
 }
 tr{
-	font-size: 7px;
+	font-size: 6px;
 }
 }
-@media  (max-width:280px) {
-table{
-	width: 0%;
-}
-tr{
-	font-size: 2px;
-}
-}
+
 </style>
