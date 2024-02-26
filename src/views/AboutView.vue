@@ -124,6 +124,9 @@ td:not(:first-of-type){
 tr{
 	font-size: 7px;
 }
+.container{
+	width: 9%;
+}
 }
 
 </style>

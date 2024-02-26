@@ -41,7 +41,7 @@
 		<tr>
 			<td rowspan="5">Вівторок</td>
 				<td colspan="1">1</td>
-				<td colspan="8">
+				<td colspan="4">
 					<table class="first">
 						<tr class="red-line">
 							<td style="border: blue;">None</td>
@@ -136,13 +136,13 @@
 		</tr>
 		<tr>
 			<td colspan="1">1</td>
-			<td colspan="8">
+			<td colspan="4">
 				<table class="first">
 					<tr class="red-line">
-						<td style="border: blue;"><a href="https://meet.google.com/cat-tnso-ydp">Лекції SPA-технології доц. Давиденко Є.О</a> </td>
+						<td colspan="8" style="border: blue;"><a href="https://meet.google.com/cat-tnso-ydp">Лекції SPA-технології доц. Давиденко Є.О</a> </td>
 					</tr>
 					<tr>
-						<td style="border: blue;">None</td>
+						<td colspan="4" style="border: blue;">None</td>
 					</tr>
 					<tr>
 						<td style="border: blue;"></td>
@@ -191,7 +191,7 @@ td {
 
 .first {
 	border: none;
-	width: 800px;
+	width: 100%;
 }
 @media  (max-width:600px) {
 	.rozklad{
@@ -201,6 +201,10 @@ td {
 		table{
 			width: 90%;
 		}
+		.first {
+	border: none;
+	width: 100%;
+}
 	}
 td:not(:first-of-type){
 	font-size: 7px;
@@ -208,6 +212,15 @@ td:not(:first-of-type){
 tr{
 	font-size: 7px;
 }
+.red-line{
+	a{
+		width: 100%;
+	}
+table, tr, td{
+	width: 100%;
+}
+}
 }
 
 </style>
+
