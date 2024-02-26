@@ -1,8 +1,7 @@
 <template>
 	<div class="about">
-
-	<div class="container" style="width: 150%; display: flex; justify-content: center;">
-		<table style="border:1px solid black; border-collapse: collapse; width: 80%;">
+	<div class="container" style="width: 100%; display: flex; justify-content: center;">
+		<table class="rozklad" style="border:1px solid black; border-collapse: collapse;">
 			<tr style="background-color: #212222;">
 				<th style="border:1px solid black;">Ім'я</th>
 				<th style="border:1px solid black;">Telegram</th>
@@ -118,10 +117,11 @@ h2{
 }
 
 @media  (max-width:600px) {
-.container, table{
-	width: 0%;}
+table{
+	width: 90%;
+}
 tr{
-	font-size: 7px;
+	font-size: 40%;
 }
 }
 
