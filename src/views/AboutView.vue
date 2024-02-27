@@ -115,7 +115,14 @@ h2{
 	display: flex;
 	justify-content: center;
 }
-
+@media  (max-width:1200px) {
+table{
+	width: 50%;
+}
+tr{
+	font-size: 10px;
+}
+}
 @media  (max-width:600px) {
 table{
 	width: 50%;
