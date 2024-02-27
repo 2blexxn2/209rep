@@ -12,7 +12,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 			<div class="wrapper">
 				<!-- 			<HelloWorld msg="ФКН" style="margin-top: 50px;"/>
 			<HelloWorld msg="ІПЗ" style="padding-top: 50px;"/> -->
-				<h1>209</h1>
+				<h1>IPZ 209</h1>
 				<nav class="nav1">
 					<RouterLink to="/">Розклад</RouterLink>
 					<RouterLink to="/about">Викладачі</RouterLink>

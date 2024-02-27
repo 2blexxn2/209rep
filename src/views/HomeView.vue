@@ -207,7 +207,7 @@ td {
 }
 	}
 td:not(:first-of-type){
-	font-size: 7px;
+	font-size: 5px;
 }
 tr{
 	font-size: 7px;

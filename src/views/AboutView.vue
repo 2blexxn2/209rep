@@ -105,7 +105,7 @@
 
 <style>
 .about{
-	font-size: 15px;
+	font-size: 1em;
 	display: flex;
 	justify-content: center;
 }
@@ -117,18 +117,41 @@ h2{
 }
 @media  (max-width:1200px) {
 table{
-	width: 50%;
+	width: 70%;
 }
 tr{
-	font-size: 10px;
+	font-size: 0.8em;
 }
 }
-@media  (max-width:600px) {
+@media  (max-width:900px) {
 table{
 	width: 50%;
 }
 tr{
-	font-size: 6px;
+	font-size: 0.7em;
+}
+}
+@media  (max-width:600px) {
+table{
+	width: 90%;
+}
+tr{
+	font-size: 0.6em;
+}
+}
+@media  (max-width:400px) {
+table{
+	padding-left: 5cap;
+	width: 70%;
+}
+table , td {
+	font-size: 2px;
+}
+a{
+	font-size: 5px;
+}
+tr{
+	font-size: 10px;
 }
 }
 
