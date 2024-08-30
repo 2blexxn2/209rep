@@ -1,158 +1,258 @@
 <template>
-	<div class="about">
-	<div class="container" style="width: 100%; display: flex; justify-content: center;">
-		<table class="rozklad" style="border:1px solid black; border-collapse: collapse;">
-			<tr style="background-color: #212222;">
-				<th style="border:1px solid black;">Ім'я</th>
-				<th style="border:1px solid black;">Telegram</th>
-				<th style="border:1px solid black;">Email</th>
-				<th style="border:1px solid black;">Курси</th>
-				<th style="border:1px solid black;">Посилання</th>
-				<th style="border:1px solid black;">Консультації</th>
-			</tr>
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Антіпова Катерина Олександрівна</td>
-				<td style="border:1px solid black;"><a href="https://t.me/KaterynaAntipova">@KaterynaAntipova</a></td>
-				<td style="border:1px solid black;"><a
-						href="mailto:antipova.katerina@chmnu.edu.ua">antipova.katerina@chmnu.edu.ua</a></td>
-				<td style="border:1px solid black;">ОБД, ООП</td>
-				<td style="border:1px solid black;"><a href="https://meet.google.com/rou-etmu-yrx">Особисте посилання</a></td>
-				<td style="border:1px solid black;"></td>
-			</tr>
-
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Боровльова Світлана Юріївна</td>
-				<td style="border:1px solid black;"><a href="https://t.me/BSU1952">@BSU1952</a></td>
-				<td style="border:1px solid black;"><a href="mailto:svetlya1952@gmail.com">svetlya1952@gmail.com</a></td>
-				<td style="border:1px solid black;">Мова програмування Python</td>
-				<td style="border:1px solid black;"><a href="https://meet.google.com/yjv-qxit-wfx">Особисте посилання</a></td>
-				<td style="border:1px solid black;">Вівторок 19:30</td>
-			</tr>
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Буровицька Юлія Миколаївна</td>
-				<td style="border:1px solid black;"><a href="https://t.me/yuliiia11">@yuliiia11</a></td>
-				<td style="border:1px solid black;"><a href="mailto:uliy2005@gmail.com">uliy2005@gmail.com</a></td>
-				<td style="border:1px solid black;">Іноземна мова</td>
-				<td style="border:1px solid black;"><a href=""></a></td>
-				<td style="border:1px solid black;"></td>
-			</tr>
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Гончарова Надія Вікторівна</td>
-				<td style="border:1px solid black;"><a href="https://t.me/NadiiaHoncharova">@NadiiaHoncharova</a></td>
-				<td style="border:1px solid black;"><a
-						href="mailto:honcharova.nadia@chmnu.edu.ua">honcharova.nadia@chmnu.edu.ua</a></td>
-				<td style="border:1px solid black;">Людино-машинна взаємодія</td>
-				<td style="border:1px solid black;"><a href="https://meet.google.com/ndm-tdcj-xzy">1. Лаби</a><br>
-					<br><a href="https://meet.google.com/phw-hygv-cpr">2. Лекції</a><br>
-					<br><a href="https://meet.google.com/tua-cugi-hxu">3. Консультації </a>
-				</td>
-				<td style="border:1px solid black;">щотижня з 15:30 до 16:30</td>
-			</tr>
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Горбань Гліб Валентинович</td>
-				<td style="border:1px solid black;"><a href="https://t.me/gleb_gorban">@gleb_gorban</a></td>
-				<td style="border:1px solid black;"><a href="mailto:hlib.horban@chmnu.edu.ua">hlib.horban@chmnu.edu.ua</a></td>
-				<td style="border:1px solid black;">ООП</td>
-				<td style="border:1px solid black;"><a href="https://meet.google.com/ahw-vvsv-syi">Особисте посилання</a></td>
-				<td style="border:1px solid black;"></td>
-			</tr>
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Давиденко Євген Олександрович</td>
-				<td style="border:1px solid black;"><a href="https://t.me/DavydenkoYevhen">@DavydenkoYevhen</a></td>
-				<td style="border:1px solid black;"><a href="mailto:davydenko@chmnu.edu.ua">davydenko@chmnu.edu.ua</a></td>
-				<td style="border:1px solid black;">SPA</td>
-				<td style="border:1px solid black;"><a href="https://meet.google.com/cat-tnso-ydp">Особисте посилання</a></td>
-				<td style="border:1px solid black;"></td>
-			</tr>
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Кандиба Ігор Олександрович</td>
-				<td style="border:1px solid black;"><a href="https://t.me/KandybaIhor">@KandybaIhor</a></td>
-				<td style="border:1px solid black;"><a href="mailto:ihor.kandyba@chmnu.edu.ua">ihor.kandyba@chmnu.edu.ua</a></td>
-				<td style="border:1px solid black;">Мова програмування Python</td>
-				<td style="border:1px solid black;"><a href="https://meet.google.com/wau-wiwx-rsq">Особисте посилання</a></td>
-				<td style="border:1px solid black;">П'ятниця 18:20</td>
-			</tr>
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Кірей Катерина Олександрівна</td>
-				<td style="border:1px solid black;"><a href="https://t.me/asd0987655">@asd0987655</a></td>
-				<td style="border:1px solid black;"><a href="mailto:kateryna.kirey@chmnu.edu.ua">kateryna.kirey@chmnu.edu.ua</a>
-				</td>
-				<td style="border:1px solid black;">ОБД</td>
-				<td style="border:1px solid black;"><a href="https://meet.google.com/kjc-mmiz-mhk">Особисте посилання</a></td>
-				<td style="border:1px solid black;"></td>
-			</tr>
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Швед Альона Володимирівна</td>
-				<td style="border:1px solid black;"></td>
-				<td style="border:1px solid black;"><a href="mailto:avshved@chmnu.edu.ua">avshved@chmnu.edu.ua</a></td>
-				<td style="border:1px solid black;">Емпіричні методи програмної інженерії</td>
-				<td style="border:1px solid black;"><a href="https://meet.google.com/aye-qiwa-naq">Особисте посилання</a></td>
-				<td style="border:1px solid black;"></td>
-			</tr>
-			<tr style="border:1px solid black;">
-				<td style="border:1px solid black;">Шерстюк Людмила Валеріївна</td>
-				<td style="border:1px solid black;"><a href="https://t.me/l1udmy1a">@l1udmy1a</a></td>
-				<td style="border:1px solid black;"><a href="mailto:lvsherstiuk@gmail.com">lvsherstiuk@gmail.com</a></td>
-				<td style="border:1px solid black;">Іноземна мова (англійська)</td>
-				<td style="border:1px solid black;"></td>
-				<td style="border:1px solid black;"></td>
-			</tr>
-
-		</table>	</div>
-
-	</div>
+  <div class="about">
+    <div class="container">
+      <table class="rozklad">
+        <thead>
+          <tr>
+            <th>Ім'я</th>
+            <th>Telegram</th>
+            <th>Email</th>
+            <th>Курси</th>
+            <th>Посилання</th>
+            <th>Консультації</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="teacher in teachers" :key="teacher.name">
+            <td>{{ teacher.name }}</td>
+            <td>
+              <a
+                v-if="teacher.telegram"
+                :href="`https://t.me/${teacher.telegram}`"
+                >@{{ teacher.telegram }}</a
+              >
+            </td>
+            <td>
+              <a :href="`mailto:${teacher.email}`">{{ teacher.email }}</a>
+            </td>
+            <td>{{ teacher.courses }}</td>
+            <td>
+              <template v-if="teacher.links">
+                <div v-for="(link, index) in teacher.links" :key="index">
+                  <a :href="link.url">{{ link.text }}</a>
+                </div>
+              </template>
+            </td>
+            <td>{{ teacher.consultations }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </template>
 
-<style>
-.about{
-	font-size: 1em;
-	display: flex;
-	justify-content: center;
-}
-h2{
-	font-family: 'Courier New', Courier, monospace;
-	color: rgb(29, 143, 0);
-	display: flex;
-	justify-content: center;
-}
-@media  (max-width:1200px) {
-table{
-	width: 70%;
-}
-tr{
-	font-size: 0.8em;
-}
-}
-@media  (max-width:900px) {
-table{
-	width: 50%;
-}
-tr{
-	font-size: 0.7em;
-}
-}
-@media  (max-width:600px) {
-table{
-	width: 90%;
-}
-tr{
-	font-size: 0.6em;
-}
-}
-@media  (max-width:400px) {
-table{
-	padding-left: 5cap;
-	width: 70%;
-}
-table , td {
-	font-size: 2px;
-}
-a{
-	font-size: 5px;
-}
-tr{
-	font-size: 10px;
-}
+<script>
+export default {
+  data() {
+    return {
+      teachers: [
+        {
+          name: "Антіпова Катерина Олександрівна",
+          telegram: "KaterynaAntipova",
+          email: "antipova.katerina@chmnu.edu.ua",
+          courses: "ОБД, ООП",
+          links: [
+            {
+              text: "Особисте посилання",
+              url: "https://meet.google.com/rou-etmu-yrx",
+            },
+          ],
+          consultations: "",
+        },
+
+        {
+          name: "Боровльова Світлана Юріївна",
+          telegram: "BSU1952",
+          email: "svetlya1952@gmail.com",
+          courses: "Мова програмування Python",
+          links: [
+            {
+              text: "Особисте посилання",
+              url: "https://meet.google.com/yjv-qxit-wfx",
+            },
+          ],
+          consultations: "",
+        },
+
+        {
+          name: "Буровицька Юлія Миколаївна",
+          telegram: "yuliiia11",
+          email: "uliy2005@gmail.com",
+          courses: "Іноземна мова",
+          links: [],
+          consultations: "",
+        },
+
+        {
+          name: "Горбань Гліб Валентинович",
+          telegram: "gleb_gorban",
+          email: "hlib.horban@chmnu.edu.ua",
+					courses: "ООП, Операційні системи",
+          links: [
+            {
+              text: "Особисте посилання",
+              url: "https://meet.google.com/ahw-vvsv-syi",
+            },
+          ],
+          consultations: "",
+        },
+
+        {
+          name: "Давиденко Євген Олександрович",
+          telegram: "DavydenkoYevhen",
+          email: "davydenko@chmnu.edu.ua",
+          courses: "SPA",
+          links: [
+            {
+              text: "Особисте посилання",
+              url: "https://meet.google.com/cat-tnso-ydp",
+            },
+          ],
+          consultations: "",
+        },
+
+        {
+          name: "Кандиба Ігор Олександрович",
+          telegram: "KandybaIhor",
+          email: "ihor.kandyba@chmnu.edu.ua",
+          courses: "Мова програмування Python",
+          links: [
+            {
+              text: "Особисте посилання",
+              url: "https://meet.google.com/wau-wiwx-rsq",
+            },
+          ],
+          consultations: "",
+        },
+
+        {
+          name: "Кірей Катерина Олександрівна",
+          telegram: "asd0987655",
+          email: "kateryna.kirey@chmnu.edu.ua",
+					courses: "ОБД, Операційні системи",
+          links: [
+            {
+              text: "Особисте посилання",
+              url: "https://meet.google.com/kjc-mmiz-mhk",
+            },
+          ],
+          consultations: "",
+        },
+
+        {
+          name: "Раленко Віктор Сергійович",
+          telegram: "RalenkoVictor",
+          email: "ralenko.v@chmnu.edu.ua  ",
+					courses: "Web development, Розробка програмного забезпечення для ОС Android",
+          links: [{ text: "Особисте посилання", url: "" }],
+          consultations: "",
+        },
+
+        {
+          name: "Стоєв Євгеній Дмитрович",
+          telegram: "stoievyevhenii",
+          email: "stoiev.yevhenii@chmnu.edu.ua",
+					courses: "ASP.NET, Web development",
+          links: [{ text: "Особисте посилання", url: "" }],
+          consultations: "",
+        },
+
+        {
+          name: "Швед Альона Володимирівна",
+          telegram: "",
+          email: "avshved@chmnu.edu.ua",
+          courses: "Емпіричні методи програмної інженерії",
+          links: [
+            {
+              text: "Особисте посилання",
+              url: "https://meet.google.com/aye-qiwa-naq",
+            },
+          ],
+          consultations: "",
+        },
+
+        {
+          name: "Шерстюк Людмила Валеріївна",
+          telegram: "l1udmy1a",
+          email: "lvsherstiuk@gmail.com",
+          courses: "Іноземна мова (англійська)",
+          links: [],
+          consultations: "",
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style scoped>
+.about {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin-bottom: 500px;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rozklad {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #000000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.rozklad th,
+.rozklad td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.rozklad th {
+  background-color: rgb(7, 153, 80);
+  color: white;
+  font-weight: bold;
+}
+
+.rozklad tr:nth-child(even) {
+  background-color: #000000;
+}
+
+.rozklad tr:hover {
+  background-color: #000000;
+}
+
+a {
+  color: rgb(7, 153, 80);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .rozklad {
+    font-size: 14px;
+  }
+
+  .rozklad th,
+  .rozklad td {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rozklad {
+    font-size: 12px;
+  }
+
+  .rozklad th,
+  .rozklad td {
+    padding: 6px;
+  }
+}
 </style>
