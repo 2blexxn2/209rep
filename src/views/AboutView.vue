@@ -1,42 +1,27 @@
 <template>
   <div class="about">
     <div class="container">
-      <table class="rozklad">
-        <thead>
-          <tr>
-            <th>Ім'я</th>
-            <th>Telegram</th>
-            <th>Email</th>
-            <th>Курси</th>
-            <th>Посилання</th>
-            <th>Консультації</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="teacher in teachers" :key="teacher.name">
-            <td>{{ teacher.name }}</td>
-            <td>
-              <a
-                v-if="teacher.telegram"
-                :href="`https://t.me/${teacher.telegram}`"
-                >@{{ teacher.telegram }}</a
-              >
-            </td>
-            <td>
-              <a :href="`mailto:${teacher.email}`">{{ teacher.email }}</a>
-            </td>
-            <td>{{ teacher.courses }}</td>
-            <td>
-              <template v-if="teacher.links">
-                <div v-for="(link, index) in teacher.links" :key="index">
-                  <a :href="link.url">{{ link.text }}</a>
-                </div>
-              </template>
-            </td>
-            <td>{{ teacher.consultations }}</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="teachers-list">
+        <div v-for="teacher in teachers" :key="teacher.name" class="teacher-card">
+          <h3>{{ teacher.name }}</h3>
+          <p v-if="teacher.telegram">
+            Telegram: <a :href="`https://t.me/${teacher.telegram}`">@{{ teacher.telegram }}</a>
+          </p>
+          <p>
+            Email: <a :href="`mailto:${teacher.email}`">{{ teacher.email }}</a>
+          </p>
+          <p>Курси: {{ teacher.courses }}</p>
+          <div v-if="teacher.links && teacher.links.length">
+            <p>Посилання:</p>
+            <ul>
+              <li v-for="(link, index) in teacher.links" :key="index">
+                <a :href="link.url">{{ link.text }}</a>
+              </li>
+            </ul>
+          </div>
+          <p v-if="teacher.consultations">Консультації: {{ teacher.consultations }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -126,7 +111,7 @@ export default {
         },
 
         {
-          name: "Кірей Катерина Олександрівна",
+          name: "Кірей Катерина Олександрівн��",
           telegram: "asd0987655",
           email: "kateryna.kirey@chmnu.edu.ua",
 					courses: "ОБД, Операційні системи",
@@ -189,40 +174,37 @@ export default {
 .about {
   font-family: Arial, sans-serif;
   padding: 20px;
-  margin-bottom: 500px;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.rozklad {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: #000000;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+.teachers-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
 
-.rozklad th,
-.rozklad td {
-  padding: 12px;
-  text-align: left;
+.teacher-card {
+  background-color: #111111;
   border: 1px solid #ffffff0f;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-.rozklad th {
-  background-color: rgb(7, 153, 80);
-  color: white;
-  font-weight: bold;
+.teacher-card h3 {
+  color: rgb(7, 153, 80);
+  margin-top: 0;
 }
 
-.rozklad tr:nth-child(even) {
-  background-color: #000000;
+.teacher-card p {
+  margin: 10px 0;
 }
 
-.rozklad tr:hover {
-  background-color: #000000;
+.teacher-card ul {
+  padding-left: 20px;
 }
 
 a {
@@ -235,24 +217,8 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .rozklad {
-    font-size: 14px;
-  }
-
-  .rozklad th,
-  .rozklad td {
-    padding: 8px;
-  }
-}
-
-@media (max-width: 480px) {
-  .rozklad {
-    font-size: 12px;
-  }
-
-  .rozklad th,
-  .rozklad td {
-    padding: 6px;
+  .teachers-list {
+    grid-template-columns: 1fr;
   }
 }
 </style>
