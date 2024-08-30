@@ -111,7 +111,7 @@ export default {
         },
 
         {
-          name: "Кірей Катерина Олександрівн��",
+          name: "Кірей Катерина Олександрівна",
           telegram: "asd0987655",
           email: "kateryna.kirey@chmnu.edu.ua",
 					courses: "ОБД, Операційні системи",
