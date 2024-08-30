@@ -327,6 +327,7 @@ const hasContent = (lesson: any) => {
 
 <style scoped>
 .rozklad {
+	color: white;
   display: flex;
   justify-content: center;
 	margin-bottom: 500px;
@@ -350,6 +351,7 @@ td {
 
 .combined {
   background-color: #2c3e50;
+	color: white;
 }
 
 .subject-cell {
@@ -362,7 +364,7 @@ td {
 
 .teacher {
   font-size: 0.8em;
-  color: #888;
+  color: #abaaaa;
 }
 
 @media (max-width: 600px) {
