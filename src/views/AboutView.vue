@@ -193,7 +193,7 @@ export default {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -208,7 +208,7 @@ export default {
 .rozklad td {
   padding: 12px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border: 1px solid #ffffff0f;
 }
 
 .rozklad th {
