@@ -197,8 +197,20 @@ const schedule = ref([
   {
     day: "Пятниця",
     lessons: [
+			{
+				group: "",
+				subject: "",
+
+				group2: "Б",
+				subjects2: [
+					{
+						name: "",
+						teacher: "",
+					},
+				],
+			},
       {
-        group2: "B",
+        group2: "Б",
         subjects2: [
           {
             name: "ASP.NET",
@@ -206,33 +218,33 @@ const schedule = ref([
           },
         ],
       },
-      {
-        group2: "Б",
-        subjects2: [
-          {
-            name: "ASP.NET",
-            teacher: "викл. Стоєв Є.Д.",
-          },
-        ],
-      },
-      {
-        group: "A",
-        subjects: [
-          {
-            name: "Розробка програмного забезпечення для ОС Android",
-            teacher: "викл. Раленко В.С",
-          },
-        ],
-      },
-      {
-        group2: "Б",
-        subjects2: [
-          {
-            name: "ОС",
-            teacher: "доц. Кірей К.О",
-          },
-        ],
-      },
+			{
+				group2: "B",
+				subjects2: [
+					{
+						name: "ASP.NET",
+						teacher: "викл. Стоєв Є.Д.",
+					},
+				],
+			},
+			{
+				group: "А",
+				subjects: [
+					{
+						name: "Розробка програмного забезпечення для ОС Android",
+						teacher: "викл. Раленко В.С",
+					},
+				],
+
+				group2: "Б",
+				subjects2: [
+					{
+						name: "ОС",
+						teacher: "доц. Кірей К.О",
+					},
+				],
+			},
+			
       {
         group: "A",
         subjects: [
