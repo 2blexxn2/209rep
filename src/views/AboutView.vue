@@ -31,6 +31,19 @@ export default {
   data() {
     return {
       teachers: [
+				{
+					name: "Агєєва-Каркашадзе Вікторія Олександрівна",
+          telegram: "",
+          email: "missis.ageeva@gmail.com",
+          courses: "Іноземна мова",
+          // links: [
+          //   {
+          //     text: "Особисте посилання",
+          //     url: "",
+          //   },
+          // ],
+          consultations: "",
+        },
         {
           name: "Антіпова Катерина Олександрівна",
           telegram: "KaterynaAntipova",
@@ -129,22 +142,22 @@ export default {
           telegram: "RalenkoVictor",
           email: "ralenko.v@chmnu.edu.ua  ",
 					courses: "Web development, Розробка програмного забезпечення для ОС Android",
-          links: [{ text: "Особисте посилання", url: "" }],
+          // links: [{ text: "Особисте посилання", url: "" }],
           consultations: "",
         },
 
         {
           name: "Стоєв Євгеній Дмитрович",
           telegram: "stoievyevhenii",
-          email: "stoiev.yevhenii@chmnu.edu.ua",
+					email: "stoev.evgeny@gmail.com",
 					courses: "ASP.NET, Web development",
-          links: [{ text: "Особисте посилання", url: "" }],
+          // links: [{ text: "Особисте посилання", url: "" }],
           consultations: "",
         },
 
         {
           name: "Швед Альона Володимирівна",
-          telegram: "",
+					telegram: "helena_shved",
           email: "avshved@chmnu.edu.ua",
           courses: "Емпіричні методи програмної інженерії",
           links: [

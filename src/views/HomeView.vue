@@ -11,13 +11,25 @@ const schedule = ref([
           {
             name: "Розробка програмного забезпечення для ОС Android",
             teacher: "викл. Раленко В.С.",
+						link: "https://meet.google.com/fhu-hdbz-xcm", 
           },
-          { name: "Web development", teacher: "викл. Раленко В.С." },
+          { 
+						name: "Web development", 
+					teacher: "викл. Раленко В.С.",
+						link: "https://meet.google.com/fhu-hdbz-xcm", 
+
+					}, 
         ],
       },
       {
         group: "AB",
-        subject: "Операційні системи доц. Горбань Г.В.",
+        subjects: [
+					{
+						name:"Операційні системи",
+						teacher:"доц. Горбань Г.В.",
+						link:"https://meet.google.com/ntv-xafm-imh"
+					}
+				],
       },
       {
         group: "AB",
@@ -25,6 +37,7 @@ const schedule = ref([
           {
             name: "Розробка web-застосунків на базі ASP.NET",
             teacher: "викл. Стоєв Є.Д.",
+						link: "https://meet.google.com/czq-ofrv-xar"
           },
           { name: "None", teacher: "" },
         ],
@@ -42,7 +55,9 @@ const schedule = ref([
         subjects: [
           {
             name: "ASP.NET",
-            teacher: "викл. Стоєв Є.Д.",
+            teacher: "викл. Стоєв Є.Д. (ауд. 2-309)",
+						link: "https://meet.google.com/czq-ofrv-xar"
+
           },
         ],
       },
@@ -51,7 +66,9 @@ const schedule = ref([
         subjects: [
           {
             name: "ASP.NET",
-            teacher: "викл. Стоєв Є.Д.",
+						teacher: "викл. Стоєв Є.Д. (ауд. 2-309)",
+						link: "https://meet.google.com/czq-ofrv-xar"
+
           },
         ],
       },
@@ -61,17 +78,23 @@ const schedule = ref([
           {
             name: "Web development",
             teacher: "викл. Раленко В. С. (ауд. 1-313)",
+						link: "https://meet.google.com/fhu-hdbz-xcm", 
+
           },
         ],
         group2: "Б",
         subjects2: [
           {
             name: "Web development",
-            teacher: "викл. Стоєв Є.Д.",
+						teacher: "викл. Стоєв Є.Д. (ауд. 2-309)",
+						link: "https://meet.google.com/czq-ofrv-xar"
+
+						
           },
           {
             name: "ОС",
             teacher: "доц. Кірей К.О (ауд. 1-009)",
+						link:"https://meet.google.com/tno-kqsg-nro"
           },
         ],
       },
@@ -80,14 +103,17 @@ const schedule = ref([
         subjects: [
           {
             name: "ОС",
-            teacher: "доц. Горбань Г.В",
+						teacher: "доц. Горбань Г.В (ауд. 1-403А)",
+						link:"https://meet.google.com/wby-ccff-xgs"
           },
         ],
         group2: "Б",
         subjects2: [
           {
             name: "Web development",
-            teacher: "викл.Стоєв Є.Д.",
+						teacher: "викл.Стоєв Є.Д. (ауд. 2-309)",
+						link: "https://meet.google.com/czq-ofrv-xar"
+
           },
         ],
       },
@@ -96,7 +122,9 @@ const schedule = ref([
         subjects2: [
           {
             name: "Розробка програмного забезпечення для ОС Android",
-            teacher: " викл. Раленко В.С",
+						teacher: " викл. Раленко В.С  (ауд. 1-313)",
+						link: "https://meet.google.com/fhu-hdbz-xcm", 
+
           },
         ],
       },
@@ -111,11 +139,15 @@ const schedule = ref([
         subjects: [
           {
             name: "Web development",
-            teacher: "викл. Раленко В.С. (ауд. 1-313)",
+            teacher: "викл. Раленко В.С. (ауд. 1-403А)",
+						link: "https://meet.google.com/fhu-hdbz-xcm", 
+
           },
           {
             name: "ОС",
-            teacher: "доц. Горбань Г.В",
+						teacher: "доц. Горбань Г.В (ауд. 1-404)",
+						link:"https://meet.google.com/wby-ccff-xgs"
+
           },
         ],
         group2: "Б",
@@ -127,7 +159,7 @@ const schedule = ref([
         subjects: [
           {
             name: "Іноземна мова",
-            teacher: "Буровицька Ю.М.",
+						teacher: "Буровицька Ю.М. (ауд. 11-110)",
           },
         ],
         group2: "",
@@ -142,7 +174,7 @@ const schedule = ref([
         subjects2: [
           {
             name: "Іноземна мова",
-            teacher: "Агєєва-Каркашадзе В.О",
+						teacher: "Агєєва-Каркашадзе В.О (ауд. 11-112)",
           },
         ],
       },
@@ -151,7 +183,9 @@ const schedule = ref([
         subjects2: [
           {
             name: "Розробка програмного забезпечення для ОС Android",
-            teacher: "викл. Раленко В.С",
+						teacher: "викл. Раленко В.С (ауд. 1-404)",
+						link: "https://meet.google.com/fhu-hdbz-xcm", 
+
           },
         ],
       },
@@ -214,7 +248,9 @@ const schedule = ref([
         subjects2: [
           {
             name: "ASP.NET",
-            teacher: "викл. Стоєв Є.Д.",
+						teacher: "викл. Стоєв Є.Д. (ауд. 10-214)",
+						link: "https://meet.google.com/czq-ofrv-xar"
+
           },
         ],
       },
@@ -223,7 +259,9 @@ const schedule = ref([
 				subjects2: [
 					{
 						name: "ASP.NET",
-						teacher: "викл. Стоєв Є.Д.",
+						teacher: "викл. Стоєв Є.Д. (ауд. 10-214)",
+						link: "https://meet.google.com/czq-ofrv-xar"
+
 					},
 				],
 			},
@@ -232,7 +270,9 @@ const schedule = ref([
 				subjects: [
 					{
 						name: "Розробка програмного забезпечення для ОС Android",
-						teacher: "викл. Раленко В.С",
+						teacher: "викл. Раленко В.С (ауд. 2-309)",
+						link: "https://meet.google.com/fhu-hdbz-xcm", 
+
 					},
 				],
 
@@ -240,7 +280,9 @@ const schedule = ref([
 				subjects2: [
 					{
 						name: "ОС",
-						teacher: "доц. Кірей К.О",
+						teacher: "доц. Кірей К.О (ауд. 1-009)",
+						link: "https://meet.google.com/tno-kqsg-nro"
+
 					},
 				],
 			},
@@ -250,7 +292,9 @@ const schedule = ref([
         subjects: [
           {
             name: "Розробка програмного забезпечення для ОС Android",
-            teacher: "викл. Раленко В.С",
+            teacher: "викл. Раленко В.С (ауд. 2-309)",
+						link: "https://meet.google.com/fhu-hdbz-xcm", 
+
           },
         ],
       },
@@ -269,60 +313,57 @@ const hasContent = (lesson: any) => {
 </script>
 
 <template>
-  <div class="rozklad">
-    <table class="table1">
-      <tr>
-        <th>День</th>
-        <th>Пара</th>
-        <th>Підгрупа А</th>
-        <th>Підгрупа Б</th>
-      </tr>
-      <template v-for="(day, dayIndex) in schedule" :key="dayIndex">
-        <tr
-          v-for="(lesson, lessonIndex) in day.lessons"
-          :key="`${dayIndex}-${lessonIndex}`"
-        >
-          <td v-if="lessonIndex === 0" :rowspan="day.lessons.length">
-            {{ day.day }}
-          </td>
-          <td>{{ lessonIndex + 1 }}</td>
-          <td
-            :class="{ combined: lesson.group === 'AB' && hasContent(lesson) }"
-            :colspan="lesson.group === 'AB' ? 2 : 1"
-          >
-            <template v-if="lesson.subjects">
-              <div
-                v-for="(subject, index) in lesson.subjects"
-                :key="index"
-                class="subject-cell"
-              >
-                <div>{{ subject.name }}</div>
-                <div class="teacher">{{ subject.teacher }}</div>
-              </div>
-            </template>
-            <div v-else-if="lesson.teacher">
-              <div>{{ lesson.subject }}</div>
-              <div class="teacher">{{ lesson.teacher }}</div>
-            </div>
-            <div v-else>{{ lesson.subject }}</div>
-          </td>
-          <td v-if="lesson.group !== 'AB'">
-            <template v-if="lesson.subjects2">
-              <div
-                v-for="(subject, index) in lesson.subjects2"
-                :key="index"
-                class="subject-cell"
-              >
-                <div>{{ subject.name }}</div>
-                <div class="teacher">{{ subject.teacher }}</div>
-              </div>
-            </template>
-            <div v-else>{{ lesson.subject2 }}</div>
-          </td>
-        </tr>
-      </template>
-    </table>
-  </div>
+	<div class="rozklad">
+		<table class="table1">
+			<tr>
+				<th>День</th>
+				<th>Пара</th>
+				<th>Підгрупа А</th>
+				<th>Підгрупа Б</th>
+			</tr>
+			<template v-for="(day, dayIndex) in schedule" :key="dayIndex">
+				<tr v-for="(lesson, lessonIndex) in day.lessons" :key="`${dayIndex}-${lessonIndex}`">
+					<td v-if="lessonIndex === 0" :rowspan="day.lessons.length">
+						{{ day.day }}
+					</td>
+					<td>{{ lessonIndex + 1 }}</td>
+					<td :class="{ combined: lesson.group === 'AB' && hasContent(lesson) }"
+						:colspan="lesson.group === 'AB' ? 2 : 1">
+						<template v-if="lesson.subjects">
+							<div v-for="(subject, index) in lesson.subjects" :key="index" class="subject-cell">
+								<div>
+									<a v-if="subject.link" :href="subject.link" target="_blank">
+										{{ subject.name }}
+									</a>
+									<span v-else>{{ subject.name }}</span>
+								</div>
+								<div class="teacher">{{ subject.teacher }}</div>
+							</div>
+						</template>
+						<div v-else-if="lesson.teacher">
+							<div>{{ lesson.subject }}</div>
+							<div class="teacher">{{ lesson.teacher }}</div>
+						</div>
+						<div v-else>{{ lesson.subject }}</div>
+					</td>
+					<td v-if="lesson.group !== 'AB'">
+						<template v-if="lesson.subjects2">
+							<div v-for="(subject, index) in lesson.subjects2" :key="index" class="subject-cell">
+								<div>
+									<a v-if="subject.link" :href="subject.link" target="_blank">
+										{{ subject.name }}
+									</a>
+									<span v-else>{{ subject.name }}</span>
+								</div>
+								<div class="teacher">{{ subject.teacher }}</div>
+							</div>
+						</template>
+						<div v-else>{{ lesson.subject2 }}</div>
+					</td>
+				</tr>
+			</template>
+		</table>
+	</div>
 </template>
 
 <style scoped>

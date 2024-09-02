@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Navbar from "./components/Navbar.vue";
 import { RouterLink, RouterView } from "vue-router";
+// import Calls from "./components/Calls.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import { RouterLink, RouterView } from "vue-router";
 					<RouterLink to="/" class="nav-button">Розклад</RouterLink>
 					<RouterLink to="/about" class="nav-button">Викладачі</RouterLink>
 				</nav>
+				<!-- <Calls /> -->
 			</div>
 		</div>
 	</header>
