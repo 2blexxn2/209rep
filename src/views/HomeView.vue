@@ -159,7 +159,7 @@ const schedule = ref([
 				subjects: [
 					{
 						name: "Іноземна мова",
-						teacher: "Буровицька Ю.М. (ауд. 11-112)",
+						teacher: "Буровицька Ю.М. (ауд. 11-303)",
 						link: "https://us04web.zoom.us/j/8862508048?pwd=0VyHahbAenpXOGDaqBVG7p9yOOeYcv.1"
 					},
 				],
@@ -175,7 +175,7 @@ const schedule = ref([
 				subjects2: [
 					{
 						name: "Іноземна мова",
-						teacher: "Агєєва-Каркашадзе В.О (ауд. 11-112)",
+						teacher: "Агєєва-Каркашадзе В.О (ауд. 11-303)",
 					},
 				],
 			},
@@ -284,7 +284,7 @@ const schedule = ref([
 				subjects2: [
 					{
 						name: "ОС",
-						teacher: "доц. Кірей К.О (ауд. 1-009)",
+						teacher: "доц. Кірей К.О (ауд. 2-308)",
 						link: "https://meet.google.com/tno-kqsg-nro"
 
 					},
