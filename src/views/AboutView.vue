@@ -57,10 +57,24 @@ export default {
           ],
           consultations: "",
         },
-
+				
+				//поменять
+				{
+					name: "Бондаренко Стефанія Віталіївна",
+					telegram: "gg_days",
+					email: "",
+					courses: "Мова програмування Python",
+					links: [
+						{
+							text: "Особисте посилання",
+							url: "",
+						},
+					],
+					consultations: "",
+				},
         {
           name: "Боровльова Світлана Юріївна",
-          telegram: "BSU1952",
+					telegram: "BSU1952",
           email: "svetlya1952@gmail.com",
           courses: "Мова програмування Python",
           links: [
@@ -109,6 +123,20 @@ export default {
           consultations: "",
         },
 
+				{
+					name: "Давиденко Євген Олександрович",
+					telegram: "DavydenkoYevhen",
+					email: "davydenko@chmnu.edu.ua",
+					courses: "SPA",
+					links: [
+						{
+							text: "Особисте посилання",
+							url: "https://meet.google.com/cat-tnso-ydp",
+						},
+					],
+					consultations: "",
+				},
+
         {
           name: "Кандиба Ігор Олександрович",
           telegram: "KandybaIhor",
@@ -145,6 +173,15 @@ export default {
           // links: [{ text: "Особисте посилання", url: "" }],
           consultations: "",
         },
+
+				{
+					name: "Савінов Володимир Юрійович",
+					telegram: "stoievyevhenii",
+					email: "stoev.evgeny@gmail.com",
+					courses: "Комп'ютерні мережі",
+					// links: [{ text: "Особисте посилання", url: "" }],
+					consultations: "",
+				},
 
         {
           name: "Стоєв Євгеній Дмитрович",
