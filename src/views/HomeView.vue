@@ -82,7 +82,7 @@ const schedule = ref([
           {
             name: "Основи криміналістики",
             teacher: "Казарян Е.Г.,ст.викл",
-            link: "",
+            link: "https://us05web.zoom.us/j/83231578709?pwd=RUdzVnVTNWxlRnJLaElQVEpVMDBHdz09",
           },
         ],
       },
@@ -97,7 +97,7 @@ const schedule = ref([
           {
             name: "Основи криміналістики",
             teacher: "Казарян Е.Г.,ст.викл",
-            link: "",
+            link: "https://us05web.zoom.us/j/83231578709?pwd=RUdzVnVTNWxlRnJLaElQVEpVMDBHdz09",
           },
         ],
       },
