@@ -63,7 +63,7 @@ export default {
 					name: "Бондаренко Стефанія Віталіївна",
 					telegram: "gg_days",
 					email: "",
-					courses: "Мова програмування Python",
+					courses: "ЯПЗ, ППІ, Датабейсд",
 					links: [
 						{
 							text: "Особисте посилання",
@@ -123,19 +123,6 @@ export default {
           consultations: "",
         },
 
-				{
-					name: "Давиденко Євген Олександрович",
-					telegram: "DavydenkoYevhen",
-					email: "davydenko@chmnu.edu.ua",
-					courses: "SPA",
-					links: [
-						{
-							text: "Особисте посилання",
-							url: "https://meet.google.com/cat-tnso-ydp",
-						},
-					],
-					consultations: "",
-				},
 
         {
           name: "Кандиба Ігор Олександрович",
@@ -173,15 +160,6 @@ export default {
           // links: [{ text: "Особисте посилання", url: "" }],
           consultations: "",
         },
-
-				{
-					name: "Савінов Володимир Юрійович",
-					telegram: "stoievyevhenii",
-					email: "stoev.evgeny@gmail.com",
-					courses: "Комп'ютерні мережі",
-					// links: [{ text: "Особисте посилання", url: "" }],
-					consultations: "",
-				},
 
         {
           name: "Стоєв Євгеній Дмитрович",
